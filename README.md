@@ -99,12 +99,16 @@ Default: `false`
 
 Enables minifying of the transformed CSS output. If an object is specified, it will be passed to the [cssnano] plugin.
 
+Experimental feature: if the object is set to `{ fast: true }`, [esbuild] will be used instead of [postcss].
+
 ### `inline`
 
 Type: `Boolean | Object`<br>
 Default: `false`
 
 Enables inlining of stylesheets and other assets. If an object is specified, it will have to include two properties pointing to objects: `{ stylesheets, assets }`. The `stylesheets` objects will be passed to the [postcss-import] plugin. The `assets` objects will be passed to the [postcss-url] plugin.
+
+Experimental feature: if the object is set to `{ fast: true }`, [esbuild] will be used instead of [postcss].
 
 ### `plugins`
 
@@ -186,6 +190,8 @@ Passing a booleans to the `litCss` plugin - `{ minify: true, inline: true }` - w
 
 Pass [options for cssnano] to `minify`, [options for postcss-import] to `inline.stylesheets` and [options for postcss-url] to `inline.assets`.
 
+Experimental feature: if the `minify` or `inline` object is set to `{ fast: true }`, [esbuild] will be used instead of [postcss].
+
 ## Contributing
 
 In lieu of a formal styleguide, take care to maintain the existing coding style. Lint and test your code.
@@ -208,6 +214,7 @@ Licensed under the [MIT License].
 [Pattern]: https://www.linuxjournal.com/content/bash-extended-globbing
 [PostCSS]: https://postcss.org/
 [cssnano]: https://cssnano.co/
+[esbuild]: https://esbuild.github.io/
 [postcss-import]: https://www.npmjs.com/package/postcss-import
 [postcss-url]: https://www.npmjs.com/package/postcss-url
 [postcss-fail-on-warn]: https://www.npmjs.com/package/postcss-fail-on-warn

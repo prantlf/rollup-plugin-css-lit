@@ -40,6 +40,23 @@ export { controls as default };
 `)
 })
 
+test('minifies with esbuild', async () => {
+  const bundle = await rollup({
+    input: 'test/controls.css',
+    plugins: [litCss({ minify: { fast: true } })],
+    external: 'lit'
+  })
+  const { output } = await bundle.generate({});
+  const { code } = output[0]
+  strictEqual(code, `import { css } from 'lit';
+
+var controls = css\`.control{display:flex}
+\`;
+
+export { controls as default };
+`)
+})
+
 test('handles broken input', async () => {
   try {
     await rollup({
