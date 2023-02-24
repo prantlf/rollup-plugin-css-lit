@@ -1,3 +1,10 @@
+## [1.1.4](https://github.com/prantlf/rollup-plugin-css-lit/compare/v1.1.3...v1.1.4) (2023-02-24)
+
+
+### Bug Fixes
+
+* Do not install devDependencies in production environments ([a39b3f5](https://github.com/prantlf/rollup-plugin-css-lit/commit/a39b3f5f2523a84eac4660cd307bd206e91be962))
+
 ## [1.1.3](https://github.com/prantlf/rollup-plugin-css-lit/compare/v1.1.2...v1.1.3) (2022-10-30)
 
 
