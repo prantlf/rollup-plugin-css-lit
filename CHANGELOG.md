@@ -1,5 +1,12 @@
 # Changes
 
+## [1.1.6](https://github.com/prantlf/rollup-plugin-css-lit/compare/v1.1.5...v1.1.6) (2024-08-06)
+
+### Bug Fixes
+
+* Upgrade dependencies ([b65df05](https://github.com/prantlf/rollup-plugin-css-lit/commit/b65df053c2b94b9ca49c59c414a569eb1822ab11))
+* Add JSDoc typings to main export ([f175922](https://github.com/prantlf/rollup-plugin-css-lit/commit/f175922d1969c81646b363e71775380df73179f8))
+
 ## [1.1.5](https://github.com/prantlf/rollup-plugin-css-lit/compare/v1.1.4...v1.1.5) (2023-10-08)
 
 ### Bug Fixes
