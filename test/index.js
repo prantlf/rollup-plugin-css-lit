@@ -1,5 +1,5 @@
-import { fail, strictEqual } from 'assert'
-import { fileURLToPath } from 'url'
+import { fail, strictEqual } from 'node:assert'
+import { fileURLToPath } from 'node:url'
 import { rollup } from 'rollup'
 import tehanu from 'tehanu'
 import { litCss } from '../lib/index.js'
@@ -66,6 +66,6 @@ test('handles broken input', async () => {
     })
     fail('processed broken input')
   } catch ({ message }) {
-    strictEqual(message, ('Unclosed block'))
+    strictEqual(message, ('[plugin lit-css] test/broken.txt (1:1): Unclosed block'))
   }
 })
