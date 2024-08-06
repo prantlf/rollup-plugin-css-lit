@@ -1,5 +1,21 @@
 # Changes
 
+## [2.0.0](https://github.com/prantlf/rollup-plugin-css-lit/compare/v1.1.6...v2.0.0) (2024-08-06)
+
+### Bug Fixes
+
+* Re-release 1.1.6 as 2.0.0 because of a breaking change ([47c3f55](https://github.com/prantlf/rollup-plugin-css-lit/commit/47c3f55d8ed6976e0618359121a916eb41ddc691))
+
+### BREAKING CHANGES
+
+The minimum version of Node.js is 18 from now on.
+
+## [1.1.7](https://github.com/prantlf/rollup-plugin-css-lit/compare/v1.1.5...v1.1.7) (2024-08-06)
+
+### Bug Fixes
+
+* Re-release 1.1.5 as 1.1.7 because of a breaking change in 1.1.6 ([47c3f55](https://github.com/prantlf/rollup-plugin-css-lit/commit/47c3f55d8ed6976e0618359121a916eb41ddc691))
+
 ## [1.1.6](https://github.com/prantlf/rollup-plugin-css-lit/compare/v1.1.5...v1.1.6) (2024-08-06)
 
 ### Bug Fixes
