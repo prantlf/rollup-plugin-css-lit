@@ -4,7 +4,7 @@
 
 ### Bug Fixes
 
-* Re-release 1.1.6 as 2.0.0 because of a breaking change ([47c3f55](https://github.com/prantlf/rollup-plugin-css-lit/commit/47c3f55d8ed6976e0618359121a916eb41ddc691))
+* Re-release 1.1.6 as 2.0.0 because of a breaking change ([8919b70](https://github.com/prantlf/rollup-plugin-css-lit/commit/8919b7068efe20f737ba8d54557b476e5cc5aa27))
 
 ### BREAKING CHANGES
 
