@@ -1,5 +1,11 @@
 # Changes
 
+## [2.0.1](https://github.com/prantlf/rollup-plugin-css-lit/compare/v2.0.0...v2.0.1) (2024-08-07)
+
+### Bug Fixes
+
+* Support Lit 3 as a peer dependency ([b77786a](https://github.com/prantlf/rollup-plugin-css-lit/commit/b77786a54c89b3ec46bd612787f74be49cd83cd6))
+
 ## [2.0.0](https://github.com/prantlf/rollup-plugin-css-lit/compare/v1.1.6...v2.0.0) (2024-08-06)
 
 ### Bug Fixes
